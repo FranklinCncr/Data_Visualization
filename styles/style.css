@@ -1,0 +1,65 @@
+body{
+    background-color:#f3f3f3;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#chart-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#chart{
+    margin-top: 10px;
+    width: 680px;
+    margin-left: 15px;
+}
+.mapDot{
+    background-color: #e5e5e5;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.lineChart{
+    background-color: #e5e5e5;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nav{
+    color: #ddd;
+    background-color: #222;
+    padding: 10px;
+    position: fixed;
+    opacity: 0.75;
+    left: 0;
+    bottom: 26%;
+}
+
+select{
+    margin-bottom: 10px;
+}
+
+input[type='range']{
+    width: 115px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input[type='color']{
+    width: 50px;
+    height: 22px;
+    background-color: #333;
+    border-color: #404040;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 220px;
+}
+.selectiucr{
+    width: 140px;
+}
+.selectdata{
+    width: 135px;
+}
