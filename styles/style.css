@@ -32,7 +32,8 @@ body{
     position: fixed;
     opacity: 0.75;
     left: 0;
-    bottom: 26%;
+    bottom: 15%;
+    z-index: 10;
 }
 
 select{
@@ -57,9 +58,33 @@ button{
     margin-bottom: 10px;
     width: 220px;
 }
+#d3chartT1,#d3chartT2,#d3chartE1,#d3chartE2{
+    width: 108px;
+}
+
 .selectiucr{
     width: 140px;
 }
 .selectdata{
-    width: 135px;
+    width: 137px;
+}
+.selectarea{
+    width: 168px;
+    margin-top: 3px ;
+}
+.selectarea1{
+    width: 168px;
+    margin-top: 10px;
+}
+#chart3d1{
+    margin-left: 10px;
+}
+#chart3d2{
+    margin-left: 10px;
+}
+#chart3dE1{
+    margin-left: 10px;
+}
+#chart3dE2{
+    margin-left: 10px;
 }
