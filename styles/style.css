@@ -32,7 +32,7 @@ body{
     position: fixed;
     opacity: 0.75;
     left: 0;
-    bottom: 15%;
+    bottom: 8%;
     z-index: 10;
 }
 
@@ -45,6 +45,7 @@ input[type='range']{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 input[type='color']{
     width: 50px;
     height: 22px;
@@ -58,7 +59,7 @@ button{
     margin-bottom: 10px;
     width: 220px;
 }
-#d3chartT1,#d3chartT2,#d3chartE1,#d3chartE2{
+#d3chartT1,#d3chartT2,#d3chartE1,#d3chartE2,#d3chartCrime1,#d3chartCrime2{
     width: 108px;
 }
 
@@ -76,15 +77,13 @@ button{
     width: 168px;
     margin-top: 10px;
 }
-#chart3d1{
+.selectKNN{
+    width: 124px;
+    margin-top: 10px;
+}
+#chart3d1, #chart3d2,#chart3dE1,#chart3dE2,#chart3dCrime1,#chart3dCrime2{
     margin-left: 10px;
 }
-#chart3d2{
-    margin-left: 10px;
-}
-#chart3dE1{
-    margin-left: 10px;
-}
-#chart3dE2{
-    margin-left: 10px;
+#numberknn{
+    width: 40px;
 }
